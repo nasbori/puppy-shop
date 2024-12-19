@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="telegram.js"></script>
+<body>
+    <!-- шапка -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Щенки для дома</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- основное содержимое -->
+    <main>
+        <div class="contacts-container">
+            <h2 class="contacts-title">Связаться с нами</h2>
+            <p class="paragraph">Наша дружная команда всегда готова помочь с выбором щенка! У нас Вы найдете разнообразное количество малышей. Для бронирования оставляйте свои контактные данные ниже.</p>
+            <div class="contact-image-form">
+                <img src="images/contact.jpg" alt="Контактное изображение" class="contact-image">
+                <div class="contact-form-container">
+                    <h4 class="contacts-subtitle">Отправить сообщение</h4>
+                    <form class="contact-form">
+                        <label for="fullname">Ваше имя</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <button type="submit" class="submit-btn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+            <!-- блок с контактной информацией -->
+            <div class="contact-info-row">
+                <div class="contact-block">
+                    <h4 class="contacts-subtitle">Телефон</h4>
+                    <ul class="contacts-list">
+                        <li>+7 (777) 777-77-77</li>
+                        <li>+7 (000) 000-00-00</li>
+                    </ul>
+                </div>
+                <div class="contact-block">
+                    <h4 class="contacts-subtitle">Мы Online</h4>
+                    <ul class="contacts-links">
+                        <li><a href="index.html">Наш сайт</a></li>
+                        <li><a href="mailto:sobaka@mail.ru">sobaka@mail.ru</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- карта -->
+            <div class="map-container">
+                <h4 class="contacts-subtitle">Мы на карте</h4>
+                <iframe 
+                    src="https://yandex.ru/map-widget/v1/-/CDH6rEzv" 
+                    width="100%"
+                    height="300"
+                    frameborder="0">
+                </iframe>
+            </div>
+        </div>
+    </main>
+    <!-- подвал -->
+    <footer class="footer">
+        <h3 class="footer-title">Контакты</h3>
+        <p class="paragraph">Свяжитесь с нами для деталей.</p>
+        <ul class="footer-contacts">
+            <li>Поддержка клиентов</li>
+            <li>Телефон: +7 (131) 131-13-13</li>
+            <li>Email: sobaka@mail.ru</li>
+        </ul>
+        <p class="paragraph">ФИО разработчика: Боричевская Анастасия Леонидовна</p>
+        <h3 class="footer-title">Мы в социальных сетях</h3>
+        <script src="https://yastatic.net/share2/share.js"></script>
+        <div class="ya-share2" data-curtain data-size="l" data-services="vkontakte,telegram,whatsapp"></div>
+    </footer>    
+</body>
+</html>

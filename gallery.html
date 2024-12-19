@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
+</head>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="telegram.js"></script>
+<body>
+    <!-- шапка -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Щенки для дома</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- основное содержимое -->
+    <main>
+        <section class="gallery-info">
+            <h1 class="title">Наша галерея</h1>
+            <p class="paragraph">Посмотрите очаровательных щенков, которые ждут своих заботливых хозяев. В нашей галерее вы найдете фотографии наших питомцев в разных моментах их жизни. Щенки, готовые к новым домам, очаруют вас с первого взгляда!</p>
+        </section>
+        <div class="gallery">
+            <a href="images/photo1.jpg" data-fancybox="gallery">
+                <img src="images/photo1_thumb.jpg" alt="Щенок 1">
+                <p class="caption">После сна</p>
+            </a>
+            <a href="images/photo2.jpg" data-fancybox="gallery">
+                <img src="images/photo2_thumb.jpg" alt="Щенок 2">
+                <p class="caption">С лучшим другом</p>
+            </a>
+            <a href="images/photo3.jpg" data-fancybox="gallery">
+                <img src="images/photo3_thumb.jpg" alt="Щенок 3">
+                <p class="caption">С цветочками</p>
+            </a>
+        </div>
+    </main>
+    <!-- подвал -->
+    <footer class="footer">
+        <h3 class="footer-title">Контакты</h3>
+        <p class="paragraph">Свяжитесь с нами для деталей.</p>
+        <ul class="footer-contacts">
+            <li>Поддержка клиентов</li>
+            <li>Телефон: +7 (131) 131-13-13</li>
+            <li>Email: sobaka@mail.ru</li>
+        </ul>
+        <p class="paragraph">ФИО разработчика: Боричевская Анастасия Леонидовна</p>
+        <h3 class="footer-title">Мы в социальных сетях</h3>
+        <script src="https://yastatic.net/share2/share.js"></script>
+        <div class="ya-share2" data-curtain data-size="l" data-services="vkontakte,telegram,whatsapp"></div>
+    </footer>    
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продажа щенков</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="telegram.js"></script>
+<body>
+    <!-- шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Щенки для дома</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- главный баннер -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Добро пожаловать в наш питомник!</h2>
+            <p>Очаровательные щенки ждут своих хозяев!</p>
+            <a href="#puppies" class="cta-btn">Посмотреть щенков</a>
+        </div>
+    </section>
+    <section class="dog-life">
+        <h2>Жизнь с собаками</h2>
+        <p>
+            Собаки — это не просто домашние животные, это верные друзья, 
+            которые приносят радость и счастье в нашу жизнь. 
+            Их преданность и любовь безграничны. 
+            Каждый день с собакой — это новые приключения и радостные моменты: 
+            от утренних прогулок до вечерних игр.
+        </p>
+        <p>
+            Собаки учат нас заботиться, быть ответственными и любящими. 
+            Они становятся частью семьи, способствуя созданию 
+            незабываемых воспоминаний. Каждая порода уникальна, 
+            и вместе с ней приходит свой характер и особенности.
+        </p>
+        <p>
+            Собаки — это не только дружба, но и активный образ жизни. 
+            Прогулки на свежем воздухе, занятия спортом, 
+            обучение новым трюкам — всё это обогащает наш день. 
+            Не упустите шанс подарить себе и своему питомцу 
+            счастливую жизнь полную любви и приключений!
+        </p>
+    </section>
+    <!-- раздел с щенками -->
+    <section class="puppies-section" id="puppies">
+        <h2>Наши щенки</h2>
+        <div class="puppies-container">
+            <div class="puppy-card">
+                <img src="images/puppy1.jpg" alt="Щенок 1">
+                <div class="puppy-info">
+                    <h3>Щенок 1</h3>
+                    <p>Возраст: 3 месяца</p>
+                    <p>Порода: Померанский шпиц</p>
+                    <p>Описание: Этот пушистик станет вашим лучшим другом и защитником. Он энергичен, игрив и всегда готов к приключениям. Идеален для семей с детьми!</p>
+                    <a href="contacts.html" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="puppy-card">
+                <img src="images/puppy2.jpg" alt="Щенок 2">
+                <div class="puppy-info">
+                    <h3>Щенок 2</h3>
+                    <p>Возраст: 3,5 месяца</p>
+                    <p>Порода: Той-пудель</p>
+                    <p>Описание: Его шикарная шерсть и добрый характер покорят ваше сердце. Пудели легко обучаются и подойдут для активных владельцев. Не упустите шанс сделать его частью вашей семьи!</p>
+                    <a href="contacts.html" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="puppy-card">
+                <img src="images/puppy3.jpg" alt="Щенок 3">
+                <div class="puppy-info">
+                    <h3>Щенок 3</h3>
+                    <p>Возраст: 4 месяца</p>
+                    <p>Порода: Йоркширский терьер</p>
+                    <p>Описание: Маленький, но смелый, этот пушистик станет вашим верным спутником. Он дружелюбен и прекрасно ладит с детьми. Дайте ему шанс стать частью вашей семьи!</p>
+                    <a href="contacts.html" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="puppy-card">
+                <img src="images/puppy4.jpg" alt="Щенок 4">
+                <div class="puppy-info">
+                    <h3>Щенок 4</h3>
+                    <p>Возраст: 4,5 месяца</p>
+                    <p>Порода: Корги</p>
+                    <p>Описание: Этот жизнерадостный малыш подарит вам много счастья и смеха. Корги умны, активны и идеально подходят для семей. Сделайте его частью вашей жизни уже сегодня!</p>
+                    <a href="contacts.html" class="details-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="more-info">
+                <p>Больше фотографий и подробностей о наших щенках можно найти в галерее.</p>
+                <div class="button-container">
+                    <a href="gallery.html" class="cta-btn">Перейти в галерею</a>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!-- подвал -->
+<footer class="footer">
+    <h3 class="footer-title">Контакты</h3>
+    <p class="paragraph">Свяжитесь с нами для деталей.</p>
+    <ul class="footer-contacts">
+        <li>Поддержка клиентов</li>
+        <li>Телефон: +7 (131) 131-13-13</li>
+        <li>Email: sobaka@mail.ru</li>
+    </ul>
+    <p class="paragraph">ФИО разработчика: Боричевская Анастасия Леонидовна</p>
+
+    <h3 class="footer-title">Мы в социальных сетях</h3>
+    <script src="https://yastatic.net/share2/share.js"></script>
+    <div class="ya-share2" data-curtain data-size="l" data-services="vkontakte,telegram,whatsapp"></div>
+</footer>
+</body>
+</html>
+
