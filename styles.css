@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-    background-image: url('images/background.jpg');
+    background-image: url('background.jpg');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
@@ -56,7 +56,7 @@ body {
 }
 
 .hero {
-    background-image: url('images/paw-pattern.png');
+    background-image: url('paw-pattern.png');
     background-size: cover;
     background-position: center;
     height: 400px;
