@@ -478,6 +478,33 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+.telegram-button {
+    background-color: #0088cc;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.telegram-button:hover {
+    background-color: #007bb5;
+    transform: translateY(-2px);
+}
+
+.telegram-button:active {
+    background-color: #006799;
+    transform: translateY(0);
+}
+
+.telegram-button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 136, 204, 0.6);
+}
+
+
 
 
 
